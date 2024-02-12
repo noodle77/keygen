@@ -13,8 +13,15 @@
         <h1>Password Generator</h1>
       </header>
       <div class="card">
-        <div class="card-header">
-          <h2>Generate a Password</h2>
+        <div class="card-header column">
+          <h2>Generate Your Password</h2>
+          <input id="caps" class="checkbox" type="checkbox">Capitals</input>
+          <br>
+          <input id="nums" class="checkbox" type="checkbox">Numbers</input>
+          <br>
+          <input id="specs" class="checkbox" type="checkbox">Specials</input>
+          <br>
+          <input id="passlength" class="lengthbar" type="text" placeholder="pass length (number)"> 
         </div>
         <div class="card-body">
           <textarea
@@ -29,6 +36,7 @@
         </div>
       </div>
     </div>
+    <script src="./node_modules/jquery/dist/jquery.js"></script>
     <script src="./assets/js/script.js"></script>
   </body>
 </html>
