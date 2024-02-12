@@ -106,7 +106,7 @@ button[disabled] {
   float: right;
 }
 
-#password {
+#key {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
@@ -134,7 +134,7 @@ button[disabled] {
     padding: 10px 15px;
   }
 
-  #password {
+  #key {
     font-size: 1rem;
   }
 }
