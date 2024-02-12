@@ -48,7 +48,7 @@ function genKey() {
   return key;
 }
 
-// This function is called with "Generate Key" button is clicked due to the event listener below.
+// This function is called with the "Generate Key" button due to the event listener below.
 // It calls genKey to generate a key string and displays that string in the #key field.
 function displayKey() {
   var key = genKey();
