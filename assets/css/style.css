@@ -72,6 +72,15 @@ header {
   clear: both;
 }
 
+.checkbox {
+  margin-bottom: 2%;
+}
+
+.lengthbar {
+  margin-left: 0.35%;
+  margin-bottom: 2%;
+}
+
 .btn {
   border: none;
   background-color: hsl(360, 91%, 36%);
