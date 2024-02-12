@@ -4,35 +4,34 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>PassGen</title>
+    <title>KeyGen</title>
     <link rel="stylesheet" href="./assets/css/style.css" />
   </head>
   <body>
     <div class="wrapper">
       <header>
-        <h1>Password Generator</h1>
+        <h1>KeyGen</h1>
       </header>
       <div class="card">
         <div class="card-header column">
-          <h2>Generate Your Password</h2>
           <input id="caps" class="checkbox" type="checkbox">Capitals</input>
           <br>
           <input id="nums" class="checkbox" type="checkbox">Numbers</input>
           <br>
           <input id="specs" class="checkbox" type="checkbox">Specials</input>
           <br>
-          <input id="passlength" class="lengthbar" type="text" placeholder="pass length (number)"> 
+          <input id="passlength" class="lengthbar" type="text" placeholder="key length (number)"> 
         </div>
         <div class="card-body">
           <textarea
             readonly
             id="password"
-            placeholder="Your Secure Password"
-            aria-label="Generated Password"
+            placeholder="Your Secure Key"
+            aria-label="Generated Key"
           ></textarea>
         </div>
         <div class="card-footer">
-          <button id="generate" class="btn">Generate Password</button>
+          <button id="generate" class="btn">Generate Key</button>
         </div>
       </div>
     </div>
