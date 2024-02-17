@@ -35,6 +35,15 @@ function addSpecials(checkbox) {
 // the desired length using random characters from the resultant master array.
 function genKey() {
   const x = Number($("#keylength").val());
+
+  // This if statement verifies that the key length input by the user lies between 8 and 128 characters long.
+  // If it is, the function continues on as intended. If not, the if statement shows an alert
+  // correcting the user's mistake and then subsequently cuts the function short with its return.
+  if (x < 8 || x > 128) {
+    alert("Key length must be between 8 and 128 characters long.");
+    return;
+  }
+
   const lowercase = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z'];
 
   let characters = [...lowercase];
